@@ -1,0 +1,24 @@
+
+.item1 {grid-area: header;}
+.item2 {grid-area: search;margin: 5% 0% 10% 0%;}
+.item3 {grid-area: posts;margin: 10% 20% 10% 0;}
+.item4 {grid-area: footer; background-color: #212529;}
+
+.gridContainer {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'search search posts posts posts posts'
+        'footer footer footer footer footer footer';
+        height: 100%;
+        background-color: #f0f0f0;
+
+}
+.link{
+    text-underline-offset: none;
+    text-decoration: none;
+    
+}
+
+
+

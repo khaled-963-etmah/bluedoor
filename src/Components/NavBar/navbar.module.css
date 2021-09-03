@@ -1,0 +1,68 @@
+.logo {
+    width: 145px;
+    height: 36px;
+    margin-left: 0em;
+}
+
+.hover {
+    border-bottom: 0em;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 3% 0 0 0;
+    padding: 0% 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.dropdown {
+    margin: 0 0 0 0;
+    padding: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.hover:hover {
+    color: #b5d5ec;
+}
+
+.hover2 {
+    border-bottom: 0em;
+    border-top: 0;
+    border-right: 0;
+    text-decoration: none;
+    color: #212529;
+    border-left: 0;
+    transition: 0.2s;
+}
+
+.hover2:hover {
+    color: #0496ff;
+}
+
+.navbardisplay {
+    opacity: 100;
+    transition: 0.2s;
+}
+
+.navbarhide {
+    opacity: 0;
+}
+
+.hover3 {
+    border-bottom: 0em;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 3% 0 0 0;
+    padding: 0% 5px;
+    text-decoration: none;
+    color: #0496ff;
+    transition: 0.2s;
+}
+
+.hover3:hover {
+    color: #b5d5ec;
+}

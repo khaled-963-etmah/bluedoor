@@ -1,0 +1,83 @@
+
+.item1 {grid-area: top;background-color: #fff; height: 100%;padding-left: 7%;word-wrap: break-word;padding-bottom: 1%;}
+.item2 {grid-area: left;margin: 5% 1% 10% 15%;  height: 100%;width:80%;word-wrap: break-word;}
+.item3 {grid-area: right;margin: 5% 15% 10% 6%;; height: 100%;width: 80%;word-wrap: break-word;}
+
+.gridContainer {
+    display: grid;
+    grid-template-areas:
+        'top top top top top top'
+        'left left left right right right'
+        'left left left right right right';
+        height: 100%;
+        background-color: #f0f0f0;
+       padding-bottom: 4%;
+
+}
+.link{
+    text-underline-offset: none;
+    text-decoration: none;
+    
+}
+.h1{
+  
+    color: #0496FF;
+    width: 50%;
+}
+.buttonlar{
+    margin-left: 70%;
+}
+.h11{
+    color: #0496FF;
+    padding-bottom: 2%;
+    width: 50%;
+    border-bottom:solid 1px #83cbff ;
+    font-size: 150%;
+}
+.tags{
+    margin: 1%;
+    color: #fff;
+    background-color:#83cbff ;
+
+}
+.infodiv{
+    width: 100%;
+    margin-bottom: 1%;
+    background-color: #fff;
+    padding: 2%;
+}
+.card{
+    background-color: none;
+    border: none;
+}
+.edittext{
+    border: 0.5px solid #8899ad;
+    border-radius: 5px;
+}
+
+.edittext:focus{
+    border: 0.5px solid #8899ad;
+    border-radius: 5px;
+}
+.buttom{
+    border-radius: 5px;
+    margin-top: 4%;
+    width: 25%;
+}
+.form {
+    margin-top: 2%;
+    width: 25%;
+}
+.inputfocus:focus {
+    box-shadow: 0px 0px 7px rgba(4, 150, 255, 0.5);
+    outline: none;
+}
+.select {
+    width: 140%;
+    height: 25%;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px rgb(241, 241, 241);
+    outline: none;
+}

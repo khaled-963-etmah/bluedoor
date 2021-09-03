@@ -1,0 +1,126 @@
+.container {
+    width: 100%;
+    padding: 4em 8em;
+    display: flex;
+}
+
+.formContainer {
+    width: 70%;
+    height: fit-content;
+}
+
+.h1 {
+    font: normal normal 600 32px/23px Poppins;
+    letter-spacing: 0px;
+    color: #0496FF;
+    opacity: 1;
+}
+
+.form {
+    margin-top: 2em;
+}
+
+.textinput {
+    width: 100%;
+    box-sizing: border-box;
+    height: 20em;
+    resize: none;
+}
+
+.largeinput {
+    width: 100%;
+    transition: 0.1s;
+    border: #00000060 0.1em solid
+}
+
+.largeinput:focus {
+    outline: none;
+    border: 0.1em solid white;
+    box-shadow: 0px 0px 7px rgba(4, 150, 255, 0.5);
+}
+
+.label {
+    color: #3D4766;
+    font-weight: bold;
+    font: Poppins;
+}
+
+.select {
+    width: 140%;
+    padding: 1em 1.25em;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.valuecontainer {
+    width: 100%;
+    float: left;
+    display: flex;
+}
+
+.numberinput {
+    width: 130%;
+    padding: 1em 1.25em;
+    border: white;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.numberinput:focus {
+    box-shadow: 0px 0px 7px rgba(4, 150, 255, 0.5);
+    outline: none;
+}
+
+.AddButton {
+    margin-left: 32.5%;
+    text-align: center;
+    width: 18em;
+    height: 3em;
+    background: #0496FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 6px;
+    border: none;
+    margin-top: 24px;
+    color: white;
+    transition: .4s;
+}
+
+.AddButton:hover {
+    border: 0.1em solid #0496FF;
+    background: white;
+    transition: linear;
+    color: #0496FF;
+}
+
+.textContainer {
+    width: 28%;
+    height: 100%;
+    margin-left: 8em;
+}
+
+.HowAddProjectButton {
+    text-align: center;
+    width: 100%;
+    height: 3em;
+    background: none 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 0px;
+    border: #0496FF 0.1em solid;
+    color: #0496FF;
+    transition: .4s;
+}
+
+.HowAddProjectButton:hover {
+    color: #3D4766;
+    border: 0.1em solid #3D4766;
+}
+
+.p {
+    font-family: Poppins;
+}
+
+.inputfocus:focus {
+    box-shadow: 0px 0px 7px rgba(4, 150, 255, 0.5);
+    outline: none;
+}

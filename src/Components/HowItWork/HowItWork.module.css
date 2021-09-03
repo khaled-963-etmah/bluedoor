@@ -1,0 +1,65 @@
+.container {
+    padding: 7em;
+    background-image: url("./backGround.svg");
+}
+
+.backGround {
+    /* Safari */
+    position: inherit;
+    top: 0%;
+    opacity: 0.019;
+    height: 100em;
+    width: 100%;
+}
+
+.firstContainer {
+    display: grid;
+    grid-template-areas: "righ left";
+    padding: 0em 2em;
+}
+
+.h1 {
+    font-size: 2.5em;
+    font-family: "Poppins";
+    font-weight: bolder;
+    color: #0496ff;
+    margin-bottom: 0.4em;
+}
+
+.h5 {
+    font-size: 1.1em;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #3d4766;
+    margin-bottom: 0.01em;
+}
+
+.textContainer {
+    width: 80%;
+}
+
+.imageContainer {}
+
+.buttonContainer {
+    display: grid;
+    grid-template-areas: "righ left";
+    margin-top: 2em;
+    padding: 0em 5em;
+}
+
+.button {
+    text-align: center;
+    width: 10em;
+    height: 3em;
+    background: none 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 4px;
+    border: #0496ff 0.1em solid;
+    color: #0496ff;
+    transition: 0.4s;
+}
+
+.button:hover {
+    color: #3d4766;
+    border: 0.1em solid #3d4766;
+}

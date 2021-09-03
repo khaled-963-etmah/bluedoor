@@ -1,0 +1,13 @@
+.bg-ourblue {
+    background-color: #0496FF;
+}
+
+.bg-dimgray {
+    background-color: dimgray;
+}
+
+.bg-dg {
+    background-color: rgb(255, 255, 255);
+}
+
+@media(min-width:299px) {}
